@@ -1,0 +1,247 @@
+div {
+        background-color: #FFFDDE;
+}
+
+body {
+        margin:0;
+        text-align:center;
+        font-family:'Merriweather', serif; /*priority order for fonts*/
+        font-size:16px;
+        background-color:#FFFDDE;
+}
+
+h1 {
+        margin-top: 0;
+        font-family: 'Alex Brush', cursive;
+        font-size:5.625rem;
+        margin:0 auto 0 auto;
+        color:#FFB72B;
+        line-height:2;
+}
+a.red_hover {color: inherit; text-decoration:none;}/*removes the link auto formatting on h1*/
+
+a.red_hover:hover, a.red_hover:active {color: red; text-decoration:none; }/*adds the red autohover option on h1*/
+
+
+h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size:2.50rem;/*1 rem is 16pixels*/
+        font-weight:normal;
+        color:#FFB72B;
+        font-size:45px;
+
+}
+
+h3 {
+        font-family: 'Montserrat', sans-serif;
+        color:#D29D2B;
+
+}
+.bottom-cloud{
+        position:absolute;
+}
+
+.top-cloud{
+        position:relative;
+        margin-left:600px;
+}
+
+.top-cloud2 {
+    position: absolute;
+    right: 1500px;
+}
+
+.sun {
+        position:absolute;
+        right:0;
+
+}
+.solarbkg{
+        display:inline;
+        position:relative;
+        top:10px;
+}
+/**************************Skill ROW****************************************************/
+.h2skills{ text-align:center}
+.skills {
+    display: block;
+    text-align: justify;
+}
+.skill-row{
+            width:70%;
+            margin: 80px auto 90px auto;
+            text-align:justify;
+            line-height:2;
+
+}
+.skill1_1{
+            float:left;
+            margin-right:50px;
+}
+.skill1_2{
+            float:right;
+            margin-left:50px;
+}
+
+ hr {
+                margin-top:150px;
+                margin-bottom:150px;
+                border-style: inherit;
+                border-top-style: dotted;
+                border-color: #7897AB;
+                border-width: 10px;
+                width: 5%;
+            }
+.btn {
+  background: #ed8e1a;
+  background-image: -webkit-linear-gradient(top, #ed8e1a, #b50c00);
+  background-image: -moz-linear-gradient(top, #ed8e1a, #b50c00);
+  background-image: -ms-linear-gradient(top, #ed8e1a, #b50c00);
+  background-image: -o-linear-gradient(top, #ed8e1a, #b50c00);
+  background-image: linear-gradient(to bottom, #ed8e1a, #b50c00);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:100px auto 100px auto;
+}
+
+.btn:hover {
+  background: #d63cfc;
+  background-image: -webkit-linear-gradient(top, #d63cfc, #360099);
+  background-image: -moz-linear-gradient(top, #d63cfc, #360099);
+  background-image: -ms-linear-gradient(top, #d63cfc, #360099);
+  background-image: -o-linear-gradient(top, #d63cfc, #360099);
+  background-image: linear-gradient(to bottom, #d63cfc, #360099);
+  text-decoration: none;
+}
+.bottom-container{
+                    margin-top:30px;
+                    padding:50px 0 20px;
+                    background-color:#F76E11;
+
+}
+.footer-link{
+                color:#FFBC80;
+                font-family: 'Montserrat', sans-serif;
+                margin: 10px 20px;
+                text-decoration:none;
+                font-size:20px;
+}
+.copyright{
+            color:#EAF6F6;
+}
+* {
+  box-sizing: border-box
+}
+
+.skillResponsive {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.container {
+  background-color: #ddd;
+}
+
+
+/*
+.spa {
+  width: 100%;
+  background-color: #FFB2A6;
+}
+
+.eng {
+  width: 90%;
+  background-color: #FFB2A6;
+}
+
+.ita {
+  width: 30%;
+  background-color: #FFB2A6;
+}
+
+.swe {
+  width: 10%;
+  background-color: #FFB2A6;
+}
+
+*/
+.my-phone{
+            margin:40px;
+}
+
+.skill_bar
+{
+    width: 900px;
+    margin-left: 150px;
+    margin-top:30px;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+    border: 2px solid red;
+
+    border-radius: 20px;
+
+}
+
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: orange;
+
+
+}
+#spa-bar{
+    animation: spa-fill 5s forwards;
+}
+@keyframes spa-fill{
+    100%{
+        width: 100%;
+    }
+}
+#eng-bar{
+    animation: eng-fill 5s forwards;
+}
+@keyframes eng-fill{
+    100%{
+        width: 90%;
+    }
+}
+#ita-bar{
+    animation: ita-fill 5s forwards;
+}
+@keyframes ita-fill{
+    100%{
+        width: 30%;
+    }
+}
+#swe-bar{
+    animation: swe-fill 5s forwards;
+}
+@keyframes swe-fill{
+    100%{
+        width: 10%;
+    }
+}
