@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pablo Luz Pedemonte</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="education-container">
+  <div class="education_div">
+    <h2>My Education</h2>
+  </div>
+  <div>
+    <img class="du_logo" src="images/du_logo.png" alt="du_logo">
+    <p>2020 - 2022 (current day) reading for <b>Master in Solar Energy Engineering in
+Dalarna Universiy </b>, Borlänge, Sweden.</p>
+  </div>
+
+      <!--Gallery slideshow-->
+
+  <div>
+    <h3 class="gallery_center">Brief Gallery Slideshow</h3>
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="images/du_1.jpeg" style="width:100%">
+      <img class="mySlides" src="images/du_2.jpeg" style="width:100%">
+      <img class="mySlides" src="images/du_3.jpeg" style="width:100%">
+      <img class="mySlides" src="images/du_4.jpeg" style="width:100%">
+      <img class="mySlides" src="images/du_5.jpeg" style="width:100%">
+
+      <button class="w3-button sand w3-display-left" onclick="plusDivs_1(-1)">&#10094;</button>
+      <button class="w3-button sand w3-display-right" onclick="plusDivs_1(1)">&#10095;</button>
+    </div>
+
+    <script>
+    var slideIndex_1 = 1;
+    showDivs_1(slideIndex_1);
+
+    function plusDivs_1(n) {
+      showDivs_1(slideIndex_1 += n);
+    }
+
+    function showDivs_1(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex_1 = 1}
+      if (n < 1) {slideIndex_1 = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex_1-1].style.display = "block";
+    }
+    </script>
+
+
+  </div>
+    <hr>
+    <div>
+    <img class="usm_logo" src="images/usm_logo.png" alt="usm_logo">
+    <p>2010 - 2017 Graduated as <b>Mechanical Engineer, Specialty in Energy, in Universidad Técnica Federíco Santa María </b>, Valparaíso, Chile.<br>
+      Thesis work: «O&M Planning approach for a 2.8 MW on-roof Solar Power Plant».</p>
+  </div>
+
+      <!--Gallery slideshow UTFSM -->
+
+  <div>
+    <h3 class="gallery_center">Brief Gallery Slideshow</h3>
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides_utfsm" src="images/utfsm_1.jpg" style="width:100%">
+      <img class="mySlides_utfsm" src="images/utfsm_2.jpg" style="width:100%">
+      <img class="mySlides_utfsm" src="images/utfsm_3.jpg" style="width:100%">
+      <img class="mySlides_utfsm" src="images/utfsm_4.jpg" style="width:100%">
+      <img class="mySlides_utfsm" src="images/utfsm_5.jpg" style="width:100%">
+      <img class="mySlides_utfsm" src="images/utfsm_6.jpeg" style="width:100%">
+
+      <button class="w3-button sand w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button sand w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides_utfsm");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
+
+
+  </div>
+<hr>
+    <div>
+    <img class="lca_logo" src="images/lca_logo.png" alt="lca_logo">
+    <p>2005 Graduated from Highschool, Liceo Católico Atacama, Copiapó, Chile.</p>
+      <img src="images/lca.jpg" style="width:30%">
+  </div>
+  <hr>
+     <div class="contact-me">
+    <h3><a class="red_hover" href="index.html">Return to home page</h3>    <h3><a class="red_hover" href="WorkExperience.html">Work Experience</h3>    <h3><a class="red_hover" href="Hobbies.html">Hobbies</h3>
+      <br>
+    <a class="btn" href="mailto:pabloluzpedemonte@gmail.com">CONTACT ME</a>
+       <br>
+      <p class="my-phone">pabloluzpedemonte@gmail.com +46 7318 2753</p>
+  </div>
+</div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/pablo-luz-642a36a5">LinkedIn</a>
+  <a class="footer-link" target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/pablo.o.pedemonte">Facebook</a>
+  <p class="copyright">© 2022 created by Pablo Luz Pedemonte. Photos are all my own.</p>
+</div>
+
+</body>
+</html>
