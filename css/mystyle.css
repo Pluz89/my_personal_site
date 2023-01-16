@@ -82,7 +82,12 @@ h3 {
             float:right;
             margin-left:50px;
 }
-
+.hobbies-row{
+            width:70%;
+            margin: 80px auto 90px auto;
+            text-align:justify;
+            line-height:2;
+}
  hr {
                 margin-top:150px;
                 margin-bottom:150px;
@@ -216,6 +221,7 @@ h3 {
 
 .mySlides {display:none;}
 .mySlides_utfsm {display:none;}
+.mySlides_cycling {display:none;}
 .gallery_center{text-align:center!important}
 
 

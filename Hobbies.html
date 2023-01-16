@@ -17,15 +17,66 @@
     <img class="pablo_teaching" src="images/circle-pv.png" alt="pablo-teaching">
     <h2>My Hobbies (UNDER CONSTRUCTION)</h2>
       <!--UNDER CONSTRUCTION-->
+      <p>Hæ hæ hæ hæ. If you are reading this, you are actually curious about me!</p>
+      <p>Well. My hobbies are many, but unfortunately, I have little time to do all of them.</p>
+  </div>
+  <div class="hobbies-row">
+    <h3>Cycling</h3>
+    <p>I enjoy cycling around the nature, activities such as MTB and road cycling is something I love!. My biggest
+    achievement was crossing the Andes back when I was living in Chile, well it was a while ago but you can see some photos below.</p>
+      <!--Cycling Gallery slideshow-->
+
+  <div>
+
+    <div class="w3-content w3-display-container" align="center">
+      <img class="mySlides_cycling" src="images/pablocordillera3.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablouspallata2.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablouspallata.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablocordilera.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/mapa_andes.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablomendoza2.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablocordillera2.jpg" style="width:100%">
+      <img class="mySlides_cycling" src="images/pablo_bici.jpg" style="width:100%">
+
+
+      <button class="w3-button sand w3-display-left" onclick="plusDivs_2(-1)">&#10094;</button>
+      <button class="w3-button sand w3-display-right" onclick="plusDivs_2(1)">&#10095;</button>
+    </div>
+
+    <script>
+    var slideIndex_2 = 1;
+    showDivs_1(slideIndex_2);
+
+    function plusDivs_2(n) {
+      showDivs_1(slideIndex_2 += n);
+    }
+
+    function showDivs_1(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides_cycling");
+      if (n > x.length) {slideIndex_2 = 1}
+      if (n < 1) {slideIndex_2 = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex_2-1].style.display = "block";
+    }
+    </script>
+        <!--Cycling Gallery slideshow End-->
+  </div>
+    <h3>Cycling</h3>
+    <p>Well. My hobbies are many, but unfortunately, I have little time to do all of them.</p>
+
+    </div>
   <hr>
-     <div class="contact-me">
+        <div class="contact-me">
     <h3><a class="red_hover" href="index.html">Return to home page</h3>    <h3><a class="red_hover" href="WorkExperience.html">Work Experience</h3>    <h3><a class="red_hover" href="Education.html">Education</h3>
       <br>
     <a class="btn" href="mailto:pabloluzpedemonte@gmail.com">CONTACT ME</a>
        <br>
       <p class="my-phone">pabloluzpedemonte@gmail.com +46 7318 2753</p>
-  </div>
-</div>
+        </div>
+
 </div>
 
 
